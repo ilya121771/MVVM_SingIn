@@ -7,7 +7,14 @@
 
 import Foundation
 
-class viewModel {
+class ViewModel {
     var statusText =  Dynamic("")
     
+    func userButtonPressed (login: String, password: String) {
+        if login != User.logins[0].login || password != User.logins[0].password {
+            statusText.value = "Log in falied"
+        } else {
+            statusText.value = "you succesufally loggeg in "
+        }
+    }
 }

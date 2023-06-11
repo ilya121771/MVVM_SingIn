@@ -11,8 +11,8 @@ import Foundation
      let login: String?
      let password: String?
 }
-//extension User {
-//   static var logins = [
-//    User (login: "Ilya1301", password: "12345")
-//    ]
-//}
+extension User {
+   static var logins = [
+    User (login: "Ilya1301", password: "12345")
+    ]
+}

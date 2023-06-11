@@ -10,21 +10,37 @@ import UIKit
 class ViewController: UIViewController {
     
     
+    @IBOutlet weak var loginField: UITextField!
     
-    var viewModels = viewModel()
+    @IBOutlet weak var passField: UITextField!
+    
+    
+    @IBAction func loginButton(_ sender: Any) {
+        viewModel.userButtonPressed(login: (loginField.text ?? ""), password: (passField.text ?? ""))
+    }
+    
+    @IBOutlet weak var statusText: UILabel!
+    
+    
+    var viewModel = ViewModel()
+    
+    func initstate() {
+//        label.textColor
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad();
         
         bindViewModel()
+        
+        
     }
     
     func bindViewModel() {
-        viewModels.statusText.bind({ (statusText) in
+        viewModel.statusText.bind({ (statusText) in
             DispatchQueue.main.async {
-                self.label.text = statusText
+//                self.statusText.text = statusText
             }
         })
     }
-    
 }
