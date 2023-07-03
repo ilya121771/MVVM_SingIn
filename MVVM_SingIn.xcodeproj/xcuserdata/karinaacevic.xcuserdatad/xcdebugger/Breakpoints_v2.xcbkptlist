@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "D85BE969-77B3-46BD-A294-4FA3E858BC34"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FDBFF03C-5EF7-4B73-89C9-8224C30D5242"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVVM_SingIn/View/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "FDBFF03C-5EF7-4B73-89C9-8224C30D5242 - 6392026666493228"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVVM_SingIn.ViewController.viewModel.getter : MVVM_SingIn.ViewModel"
+                  moduleName = "MVVM_SingIn"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/karinaacevic/Desktop/MVVM_SingIn/MVVM_SingIn/View/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "90">
+               </Location>
+               <Location
+                  uuid = "FDBFF03C-5EF7-4B73-89C9-8224C30D5242 - 9827e1105392f6b4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVVM_SingIn.ViewController.viewModel.setter : MVVM_SingIn.ViewModel"
+                  moduleName = "MVVM_SingIn"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/karinaacevic/Desktop/MVVM_SingIn/MVVM_SingIn/View/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "116">
+               </Location>
+               <Location
+                  uuid = "FDBFF03C-5EF7-4B73-89C9-8224C30D5242 - 8887a2f7f468b34f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVVM_SingIn.ViewController.viewModel.modify : MVVM_SingIn.ViewModel"
+                  moduleName = "MVVM_SingIn"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/karinaacevic/Desktop/MVVM_SingIn/MVVM_SingIn/View/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "FDBFF03C-5EF7-4B73-89C9-8224C30D5242 - eb7e1b883d356c96"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVVM_SingIn.ViewController.viewModel.modify : MVVM_SingIn.ViewModel with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "MVVM_SingIn"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/karinaacevic/Desktop/MVVM_SingIn/MVVM_SingIn/View/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "15">
+               </Location>
+               <Location
+                  uuid = "FDBFF03C-5EF7-4B73-89C9-8224C30D5242 - 334f190cbf05edf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVVM_SingIn.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; MVVM_SingIn.ViewController"
+                  moduleName = "MVVM_SingIn"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/karinaacevic/Desktop/MVVM_SingIn/MVVM_SingIn/View/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "221">
+               </Location>
+               <Location
+                  uuid = "FDBFF03C-5EF7-4B73-89C9-8224C30D5242 - cbc21b912550a38a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVVM_SingIn.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;MVVM_SingIn.ViewController&gt;"
+                  moduleName = "MVVM_SingIn"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/karinaacevic/Desktop/MVVM_SingIn/MVVM_SingIn/View/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "178">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

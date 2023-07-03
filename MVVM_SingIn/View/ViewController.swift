@@ -9,23 +9,25 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    
     @IBOutlet weak var loginField: UITextField!
+    @IBOutlet weak var passwordField: UITextField!
     
-    @IBOutlet weak var passField: UITextField!
-    
-    
-    @IBAction func loginButton(_ sender: Any) {
-        viewModel.userButtonPressed(login: (loginField.text ?? ""), password: (passField.text ?? ""))
+    @IBAction func signinButtonClick(_ sender: Any) {
+        
     }
     
-    @IBOutlet weak var statusText: UILabel!
+    @IBOutlet weak var statusLabel: UILabel!
+    /*@IBAction func loginButton(_ sender: Any) {
+        viewModel.userButtonPressed(login: (loginField.text ?? ""), password: (passField.text ?? ""))
+    }*/
+    
     
     
     var viewModel = ViewModel()
     
     func initstate() {
 //        label.textColor
+        
     }
     
     override func viewDidLoad() {
